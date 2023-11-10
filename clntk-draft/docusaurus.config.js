@@ -73,7 +73,7 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/docs', label: 'Docs', position: 'left'},
+          {to: '/docs/intro', label: 'Docs', position: 'left'},
           {
             href: 'https://github.com/cbhutad/documentation/tree/main/clntk-draft',
             label: 'GitHub',
@@ -93,7 +93,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Technical stuff',
                 to: '/docs/intro',
               },
             ],
