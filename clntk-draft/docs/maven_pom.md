@@ -7,7 +7,7 @@ sidebar_position: 2
 
 This documentation contains the tags or elements of pom.xml which i did not know before
 
-### Properties `<start-class>` element
+### Properties `start-class` element
 
 A Spring Boot application’s main class is a class that contains a public static void main() method that starts up the Spring ApplicationContext. By default, if the main class isn’t explicitly specified, Spring will search for one in the classpath at compile time and fail to start if none or multiple of them are found.
 
@@ -30,3 +30,7 @@ Alternatively, the main class can be defined as the mainClass element of the spr
     </plugins>
 </build>
 ```
+
+### Build `finalName` element
+
+finalName is a property in Maven’s POM file that specifies the name of the bundled project when it is finally built. By default, it is set to $ {artifactId}-$ {version} 1. However, you can override this default value by setting the finalName property in the build section of the POM file.
