@@ -75,12 +75,12 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/docs', label: 'Docs', position: 'left'},
           {
-            href: 'https://github.com/cbhutad/documentation/clntk-draft',
+            href: 'https://github.com/cbhutad/documentation/tree/main/clntk-draft',
             label: 'GitHub',
             position: 'right',
           },
           {
-            href: 'https://gitlab.com/cbhutad/documentation/clntk-draft',
+            href: 'https://gitlab.com/cbhutad/documentation/-/tree/main/clntk-draft',
             label: 'GitLab',
             position: 'right',
           },
@@ -107,7 +107,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/cbhutad/documentation/clntk-draft',
+                href: 'https://github.com/cbhutad/documentation/tree/main/clntk-draft',
               },
             ],
           },
